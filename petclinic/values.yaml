@@ -9,6 +9,12 @@ service:
   type: ClusterIP
   port: 8080
 
+serviceAccount:
+  create: true
+  name: ""
+  annotations: {}
+
+
 ingress:
   enabled: true
   className: nginx

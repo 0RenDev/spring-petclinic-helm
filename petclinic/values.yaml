@@ -14,6 +14,13 @@ serviceAccount:
   name: ""
   annotations: {}
 
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 100
+  targetCPUUtilizationPercentage: 80
+  # targetMemoryUtilizationPercentage: 80   # (optional, depends on your template)
+
 
 ingress:
   enabled: true

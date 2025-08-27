@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: docker.io/springcommunity/spring-petclinic
+  repository: spring-petclinic
   tag: latest
   pullPolicy: IfNotPresent
 
